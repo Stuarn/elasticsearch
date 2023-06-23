@@ -84,6 +84,8 @@ tasks.withType(JavaCompile).configureEach {
 
 repositories {
   jcenter()
+  mavenLocal()
+  maven { url 'http://maven.aliyun.com/nexus/content/groups/public' }
 }
 
 dependencies {
